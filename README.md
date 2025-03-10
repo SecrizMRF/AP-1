@@ -1,7 +1,7 @@
 # AP-1
 
 ---
-Milik: /n
+Milik:
 Muhammad Rizky Fadhillah
 241401055
 ---
