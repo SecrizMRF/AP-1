@@ -114,6 +114,7 @@ int main() {
     //     cout << nilai[i] << " ";
     // }
 
+    //akan memberikan output setiap elemen pada array nilai
     // for (float n : nilai) {
     //     cout << n << " ";
     // }
