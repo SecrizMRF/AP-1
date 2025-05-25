@@ -11,6 +11,6 @@ int main()
 
     cout << "Masukkan lebar (jika persegi panjang): "; cin >> l;
 
-    luas = p*l;
+    luas = p*l; //Operasi matemtaika dalam c++
     cout << "Luas Persegi (/panjang) = " << luas << endl;
 }
