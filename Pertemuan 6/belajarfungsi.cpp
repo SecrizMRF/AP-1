@@ -1,7 +1,7 @@
 #include <iostream>
-#include <string>
-#include <array>
-#include <vector>
+#include <string> //Header untuk manipulasi string
+#include <array> //Header untuk array
+#include <vector> //header untuk Vector
 using namespace std;
 
 //Fungsi untuk memberikan keluaran "Halo, what is up (nama sesuai inputan)! Selamat belajar C++!"
