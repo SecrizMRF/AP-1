@@ -1,22 +1,22 @@
-#include <stdio.h>
-#include <conio.h>
+#include <stdio.h> // header untuk bahasa c
+#include <conio.h> // header untuk syntax get
 
-int main()
+int main() // bagian utama program
 {
     char nama[50];
     char kom[2];
     int nim;
     float ip;
 
-    printf("Hello World\n");
+    printf("Hello World\n"); //Fungsi keluaran
 
     printf("Masukkan Nama   : ");
-    gets(nama);
+    gets(nama); // Fungsi inputan berupa string
 
     printf("Masukkan NIM    : ");
-    scanf("%d", &nim);
+    scanf("%d", &nim); //Fungsi inputan secara umum
 
-    getchar();
+    getchar(); //Untuk menghapus sisa inputan dari buffer
 
     printf("Masukkan Kom    : ");
     gets(kom);
