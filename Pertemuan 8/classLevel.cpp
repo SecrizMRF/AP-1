@@ -3,16 +3,16 @@
 using namespace std;
 
 class ContohAkses {
-    private:
+    private: //class provate ini hanya bisa diakses dalam class ini sendiri
         int privateVar;
     
-    protected:
+    protected: //class protected ini dapat diakses dalam class ini sendiri dan class turunan nya
         int protectedVar;
 
-    public:
+    public: //class public ini bisa diakses dimana saja oleh siapa saja
         int publicVar;
     
-    // Constructor
+    // Constructor (Sebagai pemberi nilai awal dari masing-masing var di dalam class)
     ContohAkses() {
         privateVar = 1;
         protectedVar = 2;
@@ -31,7 +31,7 @@ class Turunan : public ContohAkses {
     public:
         void aksesProtected() {
             cout << "Akses dari dalam class turunan : " << endl;
-            // cout << privateVar << endl; //error
+            // cout << privateVar << endl; //error (karena bukan merupakan class utamanya)
             cout << protectedVar << endl;
             cout << publicVar << endl;
         }
@@ -39,13 +39,13 @@ class Turunan : public ContohAkses {
 
 int main() {
     system("cls");
-    ContohAkses obj;
+    ContohAkses obj; //Declare obj sebagai variabel dengan tipe data class ContohAkses
     obj.tampilkanSemua();
 
     cout << "Akses dari luar class : " << endl;
-    cout << obj.publicVar << endl;
-    // cout << obj.protectedVar << endl; //error 
-    // cout << obj.privateVar << endl; //error
+    cout << obj.publicVar << endl; //bisa karena class-nya public
+    // cout << obj.protectedVar << endl; //error (karena bukan merupakan kelas turunan atau class utamanya)
+    // cout << obj.privateVar << endl; //error (karena bukan merupakan class nya)
 
     Turunan tur;
     tur.aksesProtected();
