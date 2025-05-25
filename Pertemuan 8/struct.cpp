@@ -3,14 +3,14 @@
 #include <vector>
 using namespace std;
 
-struct alamat
+struct alamat //Struct alamat dengan var jalan, kota, kdoepos
 {
     string jalan;
     string kota;
     int kodepos;
 };
 
-struct mahasiswa 
+struct mahasiswa //Struct mahasiswa dengan var nama, umur, ipk, alamat_rumah (nested struct)
 {
     string nama;
     int umur;
@@ -34,11 +34,12 @@ int main()
 
     // cout << "Alamat Rumah Mahasiswa 1:\n" << mhs1.alamat_rumah.jalan <<" "<< mhs1.alamat_rumah.kota <<" "<< mhs1.alamat_rumah.kodepos << endl;
 
-    vector<mahasiswa> MahasiswaList;
+    vector<mahasiswa> MahasiswaList; //Vector untuk struct
     int n;
     cout << "Masukkan jumlah mahasiswa: ";
     cin >> n;
 
+    //Inputan untuk struct mahasiswa
     for (int i = 0; i < n; i++) {
         cout << "Mahasiswa ke-" << i + 1 << endl;
         cin.get();
@@ -66,6 +67,8 @@ int main()
     }
 
     system("cls");
+
+    //Output untuk vector struct mahasiswa
     for (int i = 0; i < n; i++) {
         cout << "Data Mahasiswa ke-" << i + 1 << endl;
         cout << "Nama   : " << MahasiswaList[i].nama << endl;
