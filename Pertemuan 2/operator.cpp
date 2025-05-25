@@ -16,11 +16,11 @@ int main()
 
     // Aritmethic Operator (+,-,*,/,%)
     /*
-    int tambah = a+b;
-    int kurang = a-b;
-    int kali = a*b;
-    float bagi = float(a)/float(b);
-    int mod = a%b;
+    int tambah = a+b; // operator penjumlahan
+    int kurang = a-b; // Op pengurangan
+    int kali = a*b; // Op perkalian
+    float bagi = float(a)/float(b); // Op pembagian
+    int mod = a%b; // Op mod
 
     cout <<"Hasil Penjumlahan : " << tambah <<endl;
     cout <<"Hasil Pengurangan : " << kurang <<endl;
@@ -30,7 +30,8 @@ int main()
     */
 
     //Relational Operator 
-    // cout << (a==b) << endl;
+    // Membandingkan kedua nilai dengan operator ==, >, >=, <, <=, !=. Jika benar, maka akan memberikan output 1 dan 0 jika salah
+    // cout << (a==b) << endl; 
     // cout << (a>b) << endl;
     // cout << (a>=b) << endl;
     // cout << (a<b) << endl;
@@ -39,51 +40,51 @@ int main()
 
     //Logical Operator
     // And (&&)
-    // cout << (true && true) << endl;
-    // cout << (true && false) << endl;
-    // cout << (false && true) << endl;
-    // cout << (false && false) << endl;
+    // cout << (true && true) << endl; //Hasilnya 1
+    // cout << (true && false) << endl; //Hasilnya 0
+    // cout << (false && true) << endl; //Hasilnya 0
+    // cout << (false && false) << endl; //Hasilnya 0
 
     // Or (||)
-    // cout << (true || true) << endl;
-    // cout << (true || false) << endl;
-    // cout << (false || true) << endl;
-    // cout << (false || false) << endl;
+    // cout << (true || true) << endl; //Hasilnya 1
+    // cout << (true || false) << endl; //Hasilnya 1
+    // cout << (false || true) << endl; //Hasilnya 1
+    // cout << (false || false) << endl; //Hasilnya 0
 
     // Negasi (1)
-    // cout << !true << endl;
-    // cout << !false << endl;
+    // cout << !true << endl; //Hasilnya 0
+    // cout << !false << endl; //Hasilnya 1
 
     // Bitwise Operator (!,&,|,~,^)
-    // cout << (5&7) << endl;
-    // cout << (5|7) << endl;
-    // cout << (5^7) << endl;
-    // cout << (~7) << endl;
-    // cout << (7 << 2) << endl;
-    // cout << (7 >> 2) << endl;
+    // cout << (5&7) << endl; //hasilnya 5
+    // cout << (5|7) << endl; //hasilnya 7
+    // cout << (5^7) << endl; //hasilnya 2
+    // cout << (~7) << endl; //hasilnya -8
+    // cout << (7 << 2) << endl; //hasilnya 28
+    // cout << (7 >> 2) << endl; //hasilnya 1
 
     // Shorthand
-    // a += 7;
+    // a += 7; // sama dengan a = a+7
     // cout << a << endl;
 
-    // a -= 7;
+    // a -= 7; // sama dengan a = a - 7
     // cout << a << endl;
 
-    // a *= 7;
+    // a *= 7; // sama dengan a = a*7
     // cout << a << endl;
 
-    // a/= 7;
+    // a/= 7; //sama dengan a = a/7
     // cout << a << endl;
 
     // Increment & Decreament
-    // Pre Increment
+    // Pre Increment (increment sebelum line dijalankan)
     // cout << a << endl;
     // cout << ++a << endl;
 
     // cout << b << endl;
     // cout << ++b << endl;
 
-    // Post Increment
+    // Post Increment (increment setelah line dijalankan)
     // cout << a << endl;
     // cout << a++ << endl;
     // cout << a << endl;
@@ -92,14 +93,14 @@ int main()
     // cout << b++ << endl;
     // cout << b << endl;
     
-    // Pre Decrement
+    // Pre Decrement (decrement sebelum line dijalankan)
     // cout << a << endl;
     // cout << --a << endl;
 
     // cout << b << endl;
     // cout << --b << endl;
     
-    // Post Decrement
+    // Post Decrement (decrement setelah line dijalankan)
     cout << a << endl;
     cout << a-- << endl;
     cout << a << endl;
