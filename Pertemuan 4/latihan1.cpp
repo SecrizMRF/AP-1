@@ -9,6 +9,7 @@ int main()
     cout<<"Masukkan kalimat : ";
     getline(cin,kalimat);
 
+    //Untuk membuat setiap huruf kalimat menajdi kapital
     for (int i = 0; i < kalimat.length(); i++) {
         kalimat[i] = toupper(kalimat[i]);
     }
