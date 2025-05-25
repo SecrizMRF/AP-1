@@ -11,6 +11,7 @@ int main() {
     int matrix2[2][2];
     int result[2][2];
 
+    //Inputan matriks 1
     cout << "Masukkan elemen matrix 1 (2x2):" << endl;
     for (int i = 0; i < 2; i++) 
     {
@@ -22,6 +23,7 @@ int main() {
         }
     }
 
+    //Inputan matriks 2
     cout << "Masukkan elemen matrix 2 (2x2):" << endl;
     for (int i = 0; i < 2; i++) 
     {
@@ -33,6 +35,7 @@ int main() {
         }
     }
 
+    //Keluaran hasil penjumlahan matriks 1 dan 2
     cout << "Hasil penjumlahan matrix 1 dan matrix 2:" << endl;
     for (int i = 0; i < 2; i++) 
     {
