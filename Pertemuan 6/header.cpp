@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+#include <cmath> //Header untuk beberapa operasi matematika
 #include "headerCustom.h" //Headder buatan sendiri
 // using namespace std;
 u;
@@ -23,3 +23,4 @@ awal
     dbl akar = sqrt(angka);
     ot oo "Akar dari " oo angka oo " adalah " oo akar oo nl;
 akhir
+//Menggunakan syntax yang sudah di-define menggunkan headerCustom.h
