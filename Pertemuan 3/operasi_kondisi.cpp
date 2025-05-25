@@ -51,7 +51,7 @@ int main()
     //     }
     // }
 
-    //Switch case
+    //Switch case (untuk membarikan kondisi dengan lebih dari 2 kondisi dari case yang sama)
     // switch (nilai)
     // {
     //     case 1:
@@ -92,7 +92,7 @@ int main()
     // default: cout<<"E"<< endl; break;
     // }
 
-    // Ternary operator
+    // Ternary operator (operasi kondisi dengan 3 operator)
     string checkNum = (nilai % 2 == 0) ? "Genap" : "Ganjil";
     cout<<nilai<<" tuh bilangan "<<checkNum<< endl;
 }
