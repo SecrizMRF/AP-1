@@ -4,16 +4,16 @@
 #include <vector>
 using namespace std;
 
-string namaGlobal = "Ilmu";
+string namaGlobal = "Ilmu"; //Inisialisasi variabel global namaGlobal dengan value "Ilmu"
 
 void namaVariabel() {
-    string namaLokal = "Komputer";
+    string namaLokal = "Komputer"; //Inisialisasi variabel lokal namaLokal dengan value "Komputer"
     cout << namaLokal << endl;
-    cout << namaGlobal << endl;
+    cout << namaGlobal << endl; //Mencetak variabel global namaGlobal
 }
 
 int main() {
     system("cls");
-    namaVariabel();
-    cout << namaGlobal<<endl;
+    namaVariabel(); //Memanggil fungsi namaVariabel
+    cout << namaGlobal<<endl; //Mencetak nilai namaGlobal
 }
